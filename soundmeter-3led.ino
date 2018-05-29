@@ -75,7 +75,7 @@ void loop() {
   }
 
   //Serial.println(sound);
-  for(int i=2; i<=4; i++)
+  for(int i=grnPin; i<=grnPin+2; i++)
   {
     digitalWrite(i, LOW);
 
